@@ -30,7 +30,7 @@ if __name__ == "__main__":
     with open('jobs_to_track.csv', 'w', newline='') as f:
         writer = csv.writer(f)
         writer.writerow(['Title', 'Company', 'URL', 'Location']) # Headers
-        writer.writerow(['Software Engineer', 'Azimuth', 'https://azimuth.com/jobs/1', 'Remote'])
+        writer.writerow(['Software Engineer', 'Amazon', 'https://azimuth.com/jobs/1', 'Remote'])
         writer.writerow(['Data Hawk', 'IBM', 'https://ibm.com/jobs/2', 'New York'])
         writer.writerow(['Backend Dev', 'OpenAI', 'https://openai.com/jobs/3', 'San Francisco'])
 

@@ -54,6 +54,6 @@ if __name__ == "__main__":
     init_db()
     
     # Test it immediately with dummy data
-    add_job("Backend Engineer", "Azimuth", "https://azimuth.com/jobs/123", "Remote")
+    add_job("Backend Engineer", "Amazon", "https://azimuth.com/jobs/123", "Remote")
     add_job("Data Scientist", "Google", "https://google.com/jobs/456", "Mountain View")
-    add_job("Backend Engineer", "Azimuth", "https://azimuth.com/jobs/123", "Remote") # Should fail (duplicate)
+    add_job("Backend Engineer", "Amazon", "https://azimuth.com/jobs/123", "Remote") # Should fail (duplicate)
